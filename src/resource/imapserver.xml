@@ -17,12 +17,12 @@
   specific language governing permissions and limitations      
   under the License.                                           
  -->
- 
+
 <!--
    This template file can be used as example for James Server configuration
    DO NOT USE IT AS SUCH AND ADAPT IT TO YOUR NEEDS
 -->
- 
+
 <!-- See http://james.apache.org/server/3/config.html for usage -->
 
 <imapservers>
@@ -63,12 +63,12 @@
        <!-- -->
        <helloName autodetect="false">HHMail</helloName>
 
-         
+
        <!-- Connection timeout is 30 minutes and can not be changed - See rfc2060 5.4 for details -->
-            
+
        <!-- Set the maximum simultaneous incoming connections for this service -->
        <connectionLimit>0</connectionLimit>
-         
+
        <!-- Set the maximum simultaneous incoming connections per IP for this service -->
        <connectionLimitPerIP>0</connectionLimitPerIP>
 
