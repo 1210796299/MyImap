@@ -1,11 +1,11 @@
 package org.apache.james.metrics;
 
-import com.hh.imap.mailbox.hh.HHMailboxManager;
-import com.hh.imap.mailbox.hh.HHMailboxSessionMapperFactory;
-import com.hh.imap.mailbox.hh.mail.base.AbstractMailboxManager;
-import com.hh.imap.mailbox.hh.quto.HHCurrentQuotaManager;
-import com.hh.imap.mailbox.hh.quto.HHPerUserMaxQuotaManager;
-import com.hh.imap.mailbox.hh.user.HHUsersRepository;
+import com.hh.imap.mailbox.HHMailboxManager;
+import com.hh.imap.mailbox.HHMailboxSessionMapperFactory;
+import com.hh.imap.mailbox.mail.base.AbstractMailboxManager;
+import com.hh.imap.mailbox.quto.HHCurrentQuotaManager;
+import com.hh.imap.mailbox.quto.HHPerUserMaxQuotaManager;
+import com.hh.imap.mailbox.user.HHUsersRepository;
 import org.apache.commons.configuration2.HierarchicalConfiguration;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import org.apache.commons.configuration2.tree.ImmutableNode;

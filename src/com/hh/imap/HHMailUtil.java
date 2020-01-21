@@ -1,8 +1,8 @@
 package com.hh.imap;
 
-import com.hh.imap.mailbox.hh.mail.model.HHMailBoxMessage;
-import com.hh.imap.mailbox.hh.mail.service.bean.Mail;
-import com.hh.imap.mailbox.hh.mail.service.bean.Mail_Dir;
+import com.hh.imap.mailbox.mail.model.HHMailBoxMessage;
+import com.hh.imap.mailbox.mail.service.bean.Mail;
+import com.hh.imap.mailbox.mail.service.bean.Mail_Dir;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.input.TeeInputStream;
 import org.apache.james.mailbox.MessageUid;
